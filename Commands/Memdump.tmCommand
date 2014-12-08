@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+
+cmd=memdump;
+echocmd=""
+verbose="";
+
+input="";
+
+echo "&lt;pre&gt;"
+
+source "$TM_BUNDLE_SUPPORT/memcache.sh";
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^@m</string>
+	<key>name</key>
+	<string>Memdump</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>uuid</key>
+	<string>DCA6A0AC-0CAE-4FCB-992F-10DD5233C486</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

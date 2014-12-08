@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>trbetr@tftq.pb.hx</string>
+	<key>contactName</key>
+	<string>George McGinley Smith</string>
+	<key>description</key>
+	<string>New shiny bundle for Memcache.</string>
+	<key>name</key>
+	<string>Memcache</string>
+	<key>uuid</key>
+	<string>6ABA6F88-23BC-4376-A36A-3999EA96822C</string>
+</dict>
+</plist>
